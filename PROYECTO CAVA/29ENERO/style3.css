@@ -1,0 +1,29 @@
+.caja-cafe{
+    background-color: brown;
+    width:90px;
+    height:16px;
+    margin-bottom: 100px;
+    padding-top: 165px;
+    padding-left: 35px;
+    margin-left: 100px;
+}
+.caja-mostaza{
+    background-color: rgb(161, 187, 15);
+    color: black;
+    width:75px;
+    height:16px;
+}
+.caja-fucsia{
+    background-color: rgb(117, 8, 121);
+    width:250px;
+    height:200px ;
+    margin-left: 280px;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.caja-verde{
+    background-color: rgb(57, 95, 20);
+    color: black;
+    width:80px;
+    height:16px;
+}

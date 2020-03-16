@@ -1,0 +1,82 @@
+.modo-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    width:980px;
+    margin:0 auto;
+    margin-top:150px;
+}
+.imagen-1{
+    background-color: rgba(14, 13, 13, 0.5);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    z-index:1;
+    
+}
+.imagen-2{
+    background-color: rgb(255, 255, 255);
+    grid-column:1/2;
+    grid-row: 2/3;
+    text-align:center;
+}
+header{
+    font-size:50px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-top:20px;
+    border-radius: 38px 38px 0px 0px;
+    -moz-border-radius: 38px 38px 0px 0px;
+    -webkit-border-radius: 38px 38px 0px 0px;
+    border: 0px solid #000000;
+}
+footer{
+    font-size:30px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 38px 38px;
+    -moz-border-radius: 0px 0px 38px 38px;
+    -webkit-border-radius: 0px 0px 38px 38px;
+    border: 0px solid #000000;
+}
+.texto{
+    display:inline-block;
+    font-size:30px;
+    text-align: justify;
+    width:500px;
+    height:300px;
+    vertical-align: top;
+    padding-top:40px;
+}
+.carpeta{
+    display:inline-block;
+    width:350px;
+    height:350px;
+    margin-right:50px;
+}
+.boton{
+    border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;
+    -webkit-border-radius: 14px 14px 14px 14px;
+    border: 0px solid #000000;
+    border:5px solid green;
+    width:400px;
+    height:100px;
+    margin:0 auto;
+}
+.texto-interior{
+    color:white;
+    font-size:40px;
+    line-height: 30px;
+}
+.cohete{
+    width:200px;
+    height:200px;
+}
+.dimension{
+    width:100%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var x1 = parseInt(prompt("Ingrese 1° valor"));
+            var x2 = parseInt(prompt("Ingrese 2° valor"));
+
+            //x1 es mayor a x2;
+            if(x1 > x2){
+                while(x1 >= x2){
+                    console.log(x1);
+                    x1--;
+                }
+            } else {
+                console.log("No es posible listar");
+            }
+
+            /* Pasar valor de una variable a otra
+            if(x1 > x2){
+                var aux= x1;
+                x1 = x2;
+                x2 = aux;
+            }
+
+            /*
+            var x1 = parseInt(prompt("Ingrese n°"));
+            var x2 = parseInt(prompt("Ingrese n°"));
+            var i = x1;
+
+            if (x1 > x2) {
+                console.log("No valido");
+            } else {
+                while(i <= x2){
+                    console.log(i);
+                    i++;
+            }
+            }*/
+        </script>
+    </body>
+</html>

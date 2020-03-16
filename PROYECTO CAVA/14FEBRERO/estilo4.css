@@ -1,0 +1,15 @@
+input:focus{
+    background-color:rgb(20, 107, 220);
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #000000;
+    width:auto;
+    height:40px;
+    color:white;
+
+}
+.sin-linea::placeholder{
+    color:green;
+    border: 0px;
+}

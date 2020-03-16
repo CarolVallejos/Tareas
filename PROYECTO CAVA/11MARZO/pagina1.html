@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+
+            var aleatorio = Math.random()*101;
+            aleatorio = Math.trunc(aleatorio);
+            var num = parseInt(prompt("Ingrese número entre 0 y 100"));
+            var error = 0;
+
+            while(num !== aleatorio){
+
+                if(num < aleatorio){
+                    num= parseInt(prompt("Demasiado bajo, inténtelo de nuevo. Tiene " + error + " intentos"));
+                }
+                else{
+                    num= parseInt(prompt("Demasiado alto, inténtelo de nuevo. Tiene " + error + " intentos"));
+                    
+                }
+                error++;
+            }
+            console.log("Acertaste, era el número " + num + ". Número de intentos " + error);
+        
+            /*
+            
+            var aleatoria = Math.trunc(Math.random()*101);
+            var errorres = 0;
+            var numero = parseInt(prompt("Ingrese número"));
+
+            while( aleatoria !== numero && errores < 5){
+                errores++;
+
+                if(numero > aleatoria){
+                    numero= parseInt(prompt("Demasiado alto, intente nuevamente"));
+                } esle{
+                    numero= parseInt(prompt("Demasiado bajo"));
+                }
+            }
+            alert("Número correcto | Intentos:" + errores);
+            */
+        </script>
+    </body>
+</html>

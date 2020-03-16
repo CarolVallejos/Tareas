@@ -1,0 +1,13 @@
+.circle{
+    width:200px;
+    height:200px;
+    border-radius:200px;
+    background-color: coral;
+    overflow: hidden;
+    /*se le agrega al contenedor*/
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: teal;
+}

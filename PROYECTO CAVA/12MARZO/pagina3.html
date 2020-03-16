@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var nota;
+            var suma = 0;
+            var promedio=0;
+            var i= 0;
+            
+
+            do{
+                nota= prompt("Ingrese nota");
+
+                if(nota === "exit"){
+                    break;
+                }
+                
+                nota = parseFloat(nota);
+                
+
+                if(nota >= 1 && nota <=7){
+                    suma += nota;
+                    i++;
+                    
+                }else{
+                    alert("Nota incorrecta");
+                }                               
+                
+            }while(true);
+
+                promedio= suma/i;
+                if(promedio < 4){
+                        alert("El promedio es: " + promedio.toFixed(2));
+                        alert("Reprobado");
+                } else{
+                        alert("El promedio es: " + promedio);
+                        alert("Aprobado");
+                }
+           
+
+
+
+
+            /*
+            var promedio, total = 0, cantidad=0;
+
+            do{
+                var nota = prompt("Ingrese nota");
+
+                if(nota === "exit" || nota ==="salir"){
+                    break;
+                }
+
+                nota= parseFloat(nota);
+
+                if(nota >=1 && nota <= 7){
+                    total= total + nota;
+                    cantidad++;
+                }
+            } while(true);
+
+            promedio=total/cantidad;
+            console.log("Promedio: " + promedio);
+
+            if(promedio < 4){
+                console.log("R");
+            } else {
+                console.log("A");
+            }
+            
+            
+            
+            
+            */
+
+        </script>
+    </body>
+</html>

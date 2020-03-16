@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="estilo10.css">
+    </head>
+    <body>
+        <div class="modo-flex-pizza">
+            <div class="borde">
+            <input type="text" placeholder="Nombre Cliente" class="nombre">
+            </div>
+            <div class="relativa">
+                <p>Ingredientes:</p>
+                <div class="modo-grid-ingredientes">
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="queso">
+                    <label for="queso">Extra queso</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="oregano">
+                    <label for="oregano">Oregano</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="mozzarella">
+                    <label for="mozzarella">Mozzarella</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="choricillo">
+                    <label for="choricillo">Choricillo</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="jamon">
+                    <label for="jamon">Jamón</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="pimenton">
+                    <label for="pimenton">Pimentón</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="ingredientes" id="aceitunas">
+                    <label for="aceitunas">Aceitunas</label>
+                    </div>
+                </div>
+            </div>
+            <div class="relativa">
+                <br>
+                <label for="tamaño">Tamaño</label>
+                <select id="tamaño">
+                <option value="XS">XS-Personal</option>
+                <option value="S">Individual</option>
+                <option value="M">Mediana</option>
+                <option value="L">Familiar</option>
+            </select>
+            </div>
+            <div class="relativa">
+                <br>
+                <p>Observación:</p>
+                <textarea rows="6" cols="200"></textarea>
+            </div>
+            <div class="boton">
+                <form action="">
+                    <button type="reset">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

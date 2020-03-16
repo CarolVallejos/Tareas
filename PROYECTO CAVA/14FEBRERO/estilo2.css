@@ -1,0 +1,20 @@
+.boton{
+    background-color: blue;
+    color:white;
+    width: fit-content;
+    padding:10px 20px 10px 20px;
+    font-weight: bolder;
+    border-radius: 69px 69px 69px 69px;
+    -moz-border-radius: 69px 69px 69px 69px;
+    -webkit-border-radius: 69px 69px 69px 69px;
+    border: 0px solid #000000;
+}
+.boton:hover{
+    background-color: rgb(1, 1, 65);
+}
+.boton:active{
+    background-color: cornflowerblue;
+    padding: 7px 17px 7px 17px;
+    margin: 11px 3px 3px 3px;
+    border: 0px solid #000000;
+}

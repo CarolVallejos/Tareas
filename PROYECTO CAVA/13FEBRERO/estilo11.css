@@ -1,0 +1,4 @@
+body > :nth-child(n):not(p):not(span){
+    background-color: coral;
+    color: white;
+}

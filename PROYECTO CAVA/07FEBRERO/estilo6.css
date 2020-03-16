@@ -1,0 +1,40 @@
+body{
+    font-size: 0px;
+}
+
+.div-3{
+    display:inline-block;
+    width:33.33%;
+    background-color: green;
+    height:100px;
+}
+.div-4{
+    display: inline-block;
+    width:33.33%;
+    background-color: blue;
+    height:100px;
+}
+.div-5{
+    display: inline-block;
+    width:33.33%;
+    background-color: orange;
+    height:100px;
+}
+.div-6{
+    display:inline-block;
+    width:100%;
+    background-color: violet;
+    height:100px;
+}
+.div-7{
+    display:inline-block;
+    width:50%;
+    background-color: green;
+    height:100px;
+}
+.div-8{
+    display: inline-block;
+    width:50%;
+    background-color: orange;
+    height:100px;
+}

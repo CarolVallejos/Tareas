@@ -1,0 +1,19 @@
+/*Numeros pares
+body :nth-child(2n){
+    background-color: coral;
+    color: white;
+}
+Numeros impares
+body :nth-child(2n+1){
+    background-color: coral;
+    color: white;
+}
+*/
+body > :first-child{
+    background-color: coral;
+    color: white;
+}
+body > :last-child{
+    background-color: coral;
+    color: white;
+}

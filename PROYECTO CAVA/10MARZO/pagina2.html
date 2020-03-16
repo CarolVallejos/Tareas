@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var cantidad= parseInt(prompt("¿Cuántas oraciones ingresará?"));
+            var texto = " ";
+            var oración = " ";
+            var i = 0;
+
+            while(i < cantidad){
+                oracion = prompt("Ingrese Oración");
+                texto += oracion + "\n";
+                i++; 
+            }
+            console.log(texto);
+
+            /*
+            var cantidad = parseInt(prompt("Ingrese cantidad"));
+            var i = 0;
+            var texto = "";
+
+            while(i < cantidad){
+                texto = texto + prompt("Ingrese oracion N° " + (i + 1)) + "\n";
+                i++;
+            }
+            console.log(texto);
+            */
+        </script>
+    </body>
+</html>

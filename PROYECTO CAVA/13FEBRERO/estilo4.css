@@ -1,0 +1,4 @@
+body :nth-child(n){
+    background-color: coral;
+    color: white;
+}

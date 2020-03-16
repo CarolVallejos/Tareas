@@ -1,0 +1,15 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,100px);
+    background-color:rgb(13, 59, 59); ;
+    gap: 10px;
+    width: 300px;
+    justify-self:center;
+    align-self:center;
+}
+div{
+    min-width:30px;
+    min-height:30px;
+    background-color: rgb(0, 113, 117);
+}

@@ -1,0 +1,57 @@
+.contenedor{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.div-1{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:left;
+}
+.div-2{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:left;
+    clear:none;
+}
+.div-3{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:left;
+    clear:both;
+}
+.div-4{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:right;
+}
+.div-5{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:right;
+}
+.div-6{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:right;
+    clear:both;
+}
+.div-7{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    margin:10px;
+    float:left;
+    clear:both;
+}

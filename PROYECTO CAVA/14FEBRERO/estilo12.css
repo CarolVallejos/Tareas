@@ -1,0 +1,22 @@
+input{
+    width:70%;    
+    border:0px;
+    outline: none;
+}
+.button:hover{
+    width:300px;
+}
+.button::before{
+    content:"";
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin-right:10px;
+    background: url(plane.png);
+    vertical-align: middle;
+}
+.button{
+    border:1px solid gray;
+    transition: width 1s;
+    width: 150px;
+}

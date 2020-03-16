@@ -1,0 +1,27 @@
+.modo-grid{
+    display:grid;
+    gap:100px;
+    width:50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, minmax(150px, auto));
+    grid-template-areas: "azul blanco"
+                        "n1 n1"
+                        "n1 azul"
+                        "n1 n1"
+                        "n2 rosado";
+    margin: 0 auto; 
+    margin-top:50px;                   
+}
+
+#azul{
+    background-color: blue;
+    grid-area:azul;
+}
+#blanco{
+    background-color: white;
+    grid-area: blanco;
+}
+#rosado{
+    background-color: purple;
+    grid-area:rosado;
+}

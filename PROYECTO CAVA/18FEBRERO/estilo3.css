@@ -1,0 +1,43 @@
+.modo-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,300px);
+    grid-template-areas: "n1 n1"
+                        "n2 n3"
+                        "n2 n3";
+    width:800px;
+    text-align:center;
+    line-height: 500px;
+}
+#n1{
+    grid-area: n1;
+    background-color: teal;
+}
+#n2{
+    grid-area:n2;
+    background-color: pink;
+}
+#n3{
+    grid-area:n3;
+    background-color: orange;
+}
+.imagen-1{
+    width:200px;
+    height:200px;
+}
+.imagen-2{
+    width:200px;
+    height:200px;
+}
+.imagen-3{
+    width:200px;
+    height:200px;
+}
+@media only screen and (orientation:landscape){
+    .modo-grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat (2, 300px);
+        grid-template-areas: "n1 n3 n3"
+                            "n1 n2 n2";
+    }
+}

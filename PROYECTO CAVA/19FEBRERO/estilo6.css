@@ -1,0 +1,14 @@
+.modo-flex{
+    width:500px;
+    display:flex;
+    flex-flow: row wrap;
+    border:1px solid black;
+    justify-content: space-around;
+}
+.modo-flex > div{
+    width:100px;
+    height:100px;
+    background-color: coral;
+    border:1px solid black;
+    box-sizing: border-box;
+}

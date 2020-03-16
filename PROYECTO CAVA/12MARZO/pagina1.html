@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var numero, min, max, primeraVuelta = true;
+
+            do{
+                numero= prompt("Ingrese número");
+                
+                if(numero === "exit"){
+                    break;
+                }
+
+                numero = parseInt(numero);
+
+                if(primeraVuelta){
+                    min = numero;
+                    max = numero;
+                    primeraVuelta = false;
+                }
+
+                if(numero > max){
+                    max = numero;
+                }
+                if(numero < min){
+                    min = numero;
+                }
+
+            } while(true);
+
+            if(primeraVuelta){
+                console.log("No hay mínimo y máximo");
+            } else{
+                console.log("El número mayor: " + max + " El número menor: " + min);
+            }
+
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.main{
+    height:400px;
+    width:400px;
+    border:1px solid black;
+}
+/*.box{
+    position: relative;
+    width:100px;
+    height:100px;
+    background-color: rgb(0, 88, 172);
+    top: 100px;
+    bottom:100px;
+}*/
+.box{
+    position: relative;
+    width:100px;
+    height:100px;
+    background-color: rgb(0, 88, 172);
+    left: 10px;
+    right:100px;
+}

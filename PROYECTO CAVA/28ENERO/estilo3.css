@@ -1,0 +1,148 @@
+/*.p16{
+    font-size: 16px;
+}
+.p32{
+    font-size: 32px;
+}
+div{
+    border: 1px solid black;
+    width: 5em;
+}
+::::::::::::::::::::::::::::::::::::::::::
+*/
+/*body{
+    font-size: 16px;
+}
+div{
+    border:1px solid black;
+}
+.div-1{
+    width: 6.25em;
+}
+.div-2{
+    width: 12.5em;
+}
+.div-3{
+    width: 3.125em;
+}
+::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/*
+html{
+    font-size: 64px;
+}
+div{
+    font-size: 1.2rem;
+}
+::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/*
+html{
+    font-size:40px;
+}
+div{
+    font-size:0.8em;
+}
+.rem{
+    font-size:1.2rem;
+}
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/*.p16{
+    font-size: 16px;
+}
+.p32{
+    font-size: 32px;
+}
+div{
+    border: 1px solid black;
+    width: 5ex;
+}
+::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/*p{
+    font-family: 'Mystery Quest', cursive;
+    font-size: 2em;
+}
+::::::::::::::::::::::::::::::::::::::
+*/
+/*p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+.sigmar{
+    font-family: 'Sigmar One', cursive;
+}
+.bangers{
+    font-family: 'Bangers', cursive;
+}
+.zhi-mang-xing{
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.uncial{
+    font-family: 'Uncial Antiqua', cursive;
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/*
+.bordes{
+    border-radius: 170px 40px 170px 40px;
+    -moz-border-radius: 170px 40px 170px 40px;
+    -webkit-border-radius: 170px 40px 170px 40px;
+    border: 0px solid #000000;
+    width:400px;
+    height:400px;
+    background-color: rgb(74, 110, 20);
+}
+.sombra-verde{
+    -webkit-box-shadow: 87px 88px 92px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 87px 88px 92px -35px rgba(0,0,0,0.75);
+    box-shadow: 87px 88px 92px -35px rgba(0,0,0,0.75);
+}
+.borde-circulo-verde{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    background-color: rgb(119, 187, 67);
+    width: 400px;
+    height:400px;
+}
+.borde-circulo-cafe{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    background-color: brown;
+    width: 200px;
+    height:200px;
+}
+.sombra-cafe{
+    -webkit-box-shadow: 26px 36px 35px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 26px 36px 35px -18px rgba(0,0,0,0.75);
+    box-shadow: 26px 36px 35px -18px rgba(0,0,0,0.75);
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+.boton{
+    text-align: center;
+    line-height: 100px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(48, 48, 231);
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 0px solid #000000;
+    margin: 0 auto;
+}
+.formato-letra-boton{
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Fugaz One', cursive;
+}
+.sombra-boton{
+    -webkit-box-shadow: 23px 23px 0px 0px rgba(217,210,217,1);
+    -moz-box-shadow: 23px 23px 0px 0px rgba(217,210,217,1);
+    box-shadow: 23px 23px 0px 0px rgba(217,210,217,1);
+}

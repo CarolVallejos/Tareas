@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var numero1=parseInt(prompt("Ingrese primer n°"));
+            var numero2=parseInt(prompt("Ingrese segundo n°"));
+            var i = 0;
+            
+            while(i < 10){
+                
+                var num = numero1 + Math.random()*((numero2 - numero1 + 1));
+                num = Math.trunc(num);
+                console.log(num);
+                i++;
+            }
+          
+            /*
+             var num_1=parseInt(prompt("Ingrese n°"));
+             var num_2=parseInt(prompt("Ingrese n°"));
+            var i = 0;
+            
+            if(num_1 > num-2){
+                var aux = num_1;
+                num_1 = num_2;
+                num_2 = aux;
+            }
+
+            while(i < 10){
+                var aleatorio = num_1 + Math.random()*(num-2 - num_1 + 1);
+                aleatorio = Math.trunc(aleatorio);
+                console.log(aleatorio);
+                i++;
+            }
+            
+            */
+
+        </script>
+    </body>
+</html>

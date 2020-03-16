@@ -1,0 +1,41 @@
+.modo-grid{
+    display:grid;
+    width:500px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,150px) ;
+    gap:10px;
+    grid-template-areas:    "N1     Negro   N2"
+                            "Azul   Azul    Rojo"
+                            "N3     N3     Rojo";
+}
+.modo-grid > div{
+    background-color: pink;
+}
+/*#box_negra{
+    background-color: black;
+    grid-column:2/3;
+    grid-row:1/2;
+}*/
+#box_negra{
+    grid-area: Azul;
+    background-color: black;
+}
+
+/*#box_azul{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row:2/3;
+}*/
+#box_azul{
+    background-color: blue;
+    grid-area: Negro;
+}
+/*#box_roja{
+    background-color: red;
+    grid-column: 3/4 ;
+    grid-row: 2/4;
+}*/
+#box_roja{
+    background-color: red;
+    grid-area: Rojo;
+}

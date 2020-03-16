@@ -1,0 +1,30 @@
+/*div{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: coral;
+
+}
+::::::::::::::::::::::
+*/
+
+/*article {
+    font-size: 0px;
+}
+*/
+/*
+div{
+    font-size: 0px;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: coral;
+}
+*/
+div{
+    text-align: center;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: coral;
+}

@@ -1,0 +1,79 @@
+.modo-grid-pagina{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(70px, auto) minmax(400px,auto);
+    margin:0 auto;
+    width:1000px;
+}
+body{
+    padding:50px;
+    background-color: rgb(231, 231, 255);
+}
+section{
+    background-color: white;
+}
+.titulo{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding:30px 0px 30px 0px;
+    text-align: center;
+}
+.titulo-secundario{
+    color: rgb(75,75,75);
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top:20px;
+}
+.modo-flex-section{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.modo-flex-section > div{
+    color:grey;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    text-align: justify;
+}
+.div-1{
+    width:25%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.div-2{
+    width:50%;
+    margin:0px 20px 0px 20px;
+}
+.div-3{
+    width:25%;
+    font-size: 1.2rem;
+}
+.modo-flex-tags{
+    display:flex;
+    flex-flow: row wrap;
+    font-size: 0.7rem;
+    margin-top:40px;
+}
+.modo-flex-tags > div{
+    margin:5px;
+    padding:5px;
+}
+.azul{
+    background-color: rgb(93, 136, 255);
+    color:black;
+}
+.amarillo{
+    background-color:rgb(214,204,68);
+    color:rbg(68,67,0);
+}
+.verde{
+    background-color: rgb(42,199,146);
+    color:rgb(0,82,41);
+}
+.rojo{
+    background-color:rgb(218,81,76) ;
+    color:rgb(51,0,0);
+}

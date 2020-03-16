@@ -1,0 +1,35 @@
+section{
+    width:700px;
+    height:300px;
+    border:1px solid black;
+}
+div{
+    display: inline-block;
+    width:100px;
+    height:100px;
+}
+
+.div-1{
+    position:relative;
+    background-color: blue;
+    top:50px;
+    left:250px;
+    z-index:2;
+}
+.div-2{
+    position:relative;
+    background-color: green;
+    top:100px;
+    left:210px;
+    z-index:-2;
+}
+.div-3{
+    position:relative;
+    background-color: orangered;
+    top:50px;
+    left:150px;
+    z-index:-1;
+}
+.div-4{
+    background-color: violet;
+}

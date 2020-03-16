@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+        var num = parseInt(prompt("Ingrese n°"));
+            var menor = num;
+            var mayor = num;
+
+        do {
+            var num = parseInt(prompt("Ingrese n°"));
+            
+            if (num > mayor) {
+                mayor = num;
+            }
+
+            if (num < menor) {
+                menor = num;
+            }
+           
+
+        } while (num !== 0);
+
+        console.log("Número menor: " + menor + " Número mayor: " + mayor);
+        
+*/
+        
+        /*
+        var numero, min, max;
+
+        var numero= parseInt(prompt("Ingrese número"));
+        var min = numero;
+        var max = numero;
+
+        if(numero !== 0){
+
+        
+        do{
+            numero = parseInt(prompt("Ingrese número"));
+
+            if(numero > max){
+                max= numero;
+            }
+            if(numero < min){
+                min = numero;
+            }
+
+        } while(numero !== 0);
+        
+        console.log("Número menor: " + menor + " Número mayor: " + mayor);
+        }
+        */
+        
+        
+        var numero, min, max, primeraVuelta = true;
+        var exit = true;
+
+        do{
+            numero = parseInt(prompt("Ingrese número"));
+
+            if(primeraVuelta){
+                min = numero;
+                max = numero;
+                primeraVuelta= false;
+            }
+
+            if(numero > max){
+                max= numero;
+            }
+            if(numero < min){
+                min = numero;
+            }
+
+            if(exit){
+                if(numero === 0){
+                    break;
+                }               
+            }
+
+
+        } while(exit);
+
+        console.log("Número menor: " + min + " Número mayor: " + max);
+
+        
+
+
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+p::before{
+    content:"Start!";
+    font-style:italic;
+    color: teal;
+}
+p::after{
+    content:"End!";
+    font-weight:bolder;
+    color:coral;
+}

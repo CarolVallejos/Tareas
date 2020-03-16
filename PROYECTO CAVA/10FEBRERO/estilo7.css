@@ -1,0 +1,10 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 50%);
+    row-gap:20px;
+}
+.modo-grid > div{
+    background-color:blue;
+    border:1px solid white;
+}

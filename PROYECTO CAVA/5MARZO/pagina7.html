@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var hora = parseFloat(prompt("¿Qué hora es?"));
+            var temp = parseInt(prompt("¿Cuántos grados hay?"));
+            var bandera = 0;
+
+            if(hora >= 8 && hora <= 11){
+                console.log("Comprará un Café");
+                bandera = 1;
+            }
+            if(hora >= 12 && hora <= 13 && temp >= 20 && temp <= 25){
+                console.log("Comprará un Helado");
+                bandera = 1;
+            }
+            if(hora >= 14 && hora <= 16 || hora >= 20 && hora <= 22){
+                console.log("Comprará un Sandwich");
+                bandera = 1;
+            }
+            if(hora == 0) {
+                console.log("No comerá nada, se irá a dormir");
+                bandera = 1;
+            }
+            if(bandera == 0){
+                console.log("Hacer Nada");
+            }
+
+        </script>
+    </body>
+</html>

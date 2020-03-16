@@ -1,0 +1,48 @@
+.modo-flex-pizza{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    height:470px;
+    border:1px solid grey;
+    border-radius: 10px;
+}
+textarea{
+    resize: none;
+    width:450px;
+}
+.borde{
+    position:relative;
+    top:20px;
+    align-self: center;
+    border:1px solid grey;
+    padding:10px;
+    border-radius: 7px;
+    width:400px;
+}
+.nombre{
+    border:0px;
+    outline: none;
+}
+.relativa{
+    position:relative;
+    top:20px;
+    padding-left: 25px;
+}
+.modo-grid-ingredientes{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, minmax(20px, auto));
+    width:450px;
+}
+.boton{
+    position:relative;
+    top: 60px;
+    align-self: center;
+}
+button{
+    background-color: rgb(30, 119, 170);
+    color:white;
+    width:150px;
+    padding:5px;
+    font-weight: bolder;
+}

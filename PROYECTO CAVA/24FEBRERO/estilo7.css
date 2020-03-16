@@ -1,0 +1,40 @@
+body{
+    height:1500px;
+}
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    height:230px;
+    border:1px solid black;
+    border-radius: 25px;
+    justify-content: space-around;
+    background-color: rgb(28, 28, 168);
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+div{
+    color:white;
+    align-self: center;
+    font-size: 1.4rem;
+}
+.boton{
+    background-color: rgb(139, 0, 0);
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+}
+.negrita{
+    font-weight: bolder;
+    font-size:1.8rem;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

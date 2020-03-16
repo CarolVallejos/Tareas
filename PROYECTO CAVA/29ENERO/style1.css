@@ -1,0 +1,16 @@
+.caja-1{
+    background-color: blue;
+    color: white;
+    padding-right:50px;
+}
+.caja-2{
+    color:white;
+    background-color: coral;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.caja-3{
+    color:white;
+    background-color: yellow;
+    padding: 30px 65px 10px 20px; 
+}

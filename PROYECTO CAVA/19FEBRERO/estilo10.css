@@ -1,0 +1,64 @@
+.modo-flex-pagina{
+    display:flex;
+    width: 730px;
+    height:400px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modo-flex{
+    display:flex;
+    width:350px;
+    height:350px;
+    flex-direction: row;
+    border:1px solid black;
+    justify-content: space-around;
+    border-radius:7px;
+}
+img{
+    width:64px;
+    height:64px;
+    align-self: center;
+}
+.parrafo{
+    align-self: center;
+    width:250px;
+    height:250px;
+    text-align: justify;
+}
+.modo-flex-calculator{
+    display:flex;
+    width:350px;
+    height:350px;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content:stretch;
+    border-radius:7px;
+}
+.modo-flex-boton{
+    display:flex;
+    width:250px;
+    height:40px;
+    flex-direction: row;
+    border:1px solid blue;
+    border-radius: 9px;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+input{
+    outline: none;
+    border:0px;
+    align-self: center;
+}
+span{
+    background-color: blue;
+    color:white;
+    align-self: center;
+    font-weight: bolder;
+    border-radius:9px 0px 0px 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

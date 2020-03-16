@@ -1,0 +1,26 @@
+div{
+    width:200px;
+    height:200px;
+    border:9px solid rgb(74, 117, 3);
+    font-size:0px;
+
+}
+article{
+    display:inline-block;
+}
+
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: rgb(1, 59, 1);
+}
+.amarillo{
+    background-color: rgb(240, 240, 68);
+}
+.naranja{
+    background-color: orange;
+}
+section{
+    margin-bottom: 10px;
+}

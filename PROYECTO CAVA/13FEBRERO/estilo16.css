@@ -1,0 +1,29 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    margin:0 auto;
+    width:500px;
+}
+.azul{
+    background-color: rgb(25, 25, 199);
+    
+
+}
+.rosado:hover{
+    background-color: red;
+    -webkit-box-shadow: inset 10px 10px 37px 12px rgba(255,209,209,1);
+    -moz-box-shadow: inset 10px 10px 37px 12px rgba(255,209,209,1);
+    box-shadow: inset 10px 10px 37px 12px rgba(255,209,209,1);
+
+}
+.verde{
+    background-color: green;
+
+}
+.rojo{
+    background-color: red;
+}
+.rosa{
+    background-color: palevioletred;
+}

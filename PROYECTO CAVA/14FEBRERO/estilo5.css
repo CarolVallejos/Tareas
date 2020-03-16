@@ -1,0 +1,10 @@
+.texto:link{
+    color:green;
+}
+.texto:visited{
+    color: orangered;
+}
+.texto:active{
+    background-color: green;
+    color:white;
+}

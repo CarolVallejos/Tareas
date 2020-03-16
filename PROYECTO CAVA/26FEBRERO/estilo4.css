@@ -1,0 +1,38 @@
+.contenedor{
+    background: url(pug\ 2.jpg);
+    width:700px;
+    height:400px;
+    position:relative;
+    overflow: hidden;
+}
+.texto{
+    color:white;
+    font-size: 2rem;
+    margin:0 auto;
+}
+.contenedor:hover > .caja-interior{
+    bottom:0px;
+}
+.caja-interior{
+    width:700px;
+    height:200px;
+    bottom:-300px;
+    position:absolute;
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    text-align: center;
+    background-color: rgba(24, 24, 24, 0.40);
+    transition:all 2s;
+}
+.boton{
+    background-color: red;
+    width:200px;
+    height:30px;
+    color:white;
+    border-radius:7px;
+    margin:0 auto;
+    padding:5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}

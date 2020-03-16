@@ -1,0 +1,147 @@
+#caja1{
+    width: 150px;
+    height: 50px;
+    background-color: blue;    
+}
+#caja2{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 60, 0);    
+}
+#caja3{
+    width: 150px;
+    height: auto;
+    background-color: blueviolet;
+}
+#border{
+    width:100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: teal;
+}
+#borde1{
+    width:100%;
+    height:50px ;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: brown;
+}
+#borde2{
+    width:70px;
+    height:70px ;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(3, 110, 47);
+}
+#borde3{
+    width:70px;
+    height:70px ;
+    border-style: dashed double;
+    border-width: 7px;
+    border-color: rgb(228, 224, 10);
+}
+#borde4{
+    width:100px;
+    height:100px ;
+    border-top: 5px solid brown;
+    border-bottom: 5px solid brown;  
+    background-color: lightgray;
+}
+#borde5{
+    width:100px;
+    height:100px ;
+    border-right: 5px solid rgb(14, 40, 190);
+    border-left: 5px solid rgb(14, 40, 190);  
+    background-color: lightgray;
+}
+#borde6{
+    width:100px;
+    height:100px ;
+    border-top: 5px solid green;
+    border-right: 5px solid green;
+    background-color: lightgray;
+
+}
+#borde7{
+    width:100px;
+    height:100px ;
+    border-top: 5px solid lightblue;
+    border-left: 5px solid lightblue;
+    border-bottom: 5px solid lightblue;
+    background-color: lightgray;
+}
+#under{
+    font-style: italic;
+    background-color: brown;
+    
+}
+#big{
+    font-weight: bold;
+    font-size: 30px;
+}
+#sub{
+    font-style: italic;
+}
+#neg{
+    font-weight: bolder;
+}
+.ancho{
+    letter-spacing: 10px;
+}
+.delgado{
+    letter-spacing: -1px;
+}
+.seleccion{
+    color: white;
+    background-color: rgb(6, 51, 197);
+
+}
+.sinseleccion{
+    text-decoration: none;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.comic{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.otra{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.otraL{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left{
+    width:100%px;
+    height:50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+}
+.center{
+    width:100%px;
+    height:50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.right{
+    width:100%px;
+    height:auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: right;
+}
+.justificado{
+    width:100%px;
+    height:auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: justify;
+}

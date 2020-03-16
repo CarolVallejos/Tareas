@@ -1,0 +1,31 @@
+.modo-grid{
+    display:grid;
+    width:500px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,70px) ;
+    gap:10px;
+    grid-template-areas:    "Verde     Azul   Azul"
+                            "Verde   Azul    Azul"
+                            "Amarillo     Amarillo     Coral";
+}
+/*
+.modo-grid > div{
+    background-color: pink;
+}*/
+
+#seccion_verde{
+    grid-area: Verde;
+    background-color: green;
+}
+#seccion_azul{
+    grid-area: Azul;
+    background-color: blue;
+}
+#seccion_amarillo{
+    grid-area:Amarillo;
+    background-color:yellow;
+}
+#seccion_rojo{
+    grid-area: Coral;
+    background-color:coral;
+}

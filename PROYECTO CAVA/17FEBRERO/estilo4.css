@@ -1,0 +1,22 @@
+section{
+    width:500px;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+.flotar-izq{
+    float:left;
+    margin:10px 0px 10px 20px;
+
+}
+.flotar-der{
+    float:right;
+    margin:10px 20px 10px 0px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        var edadActual;
+        edadActual= parseInt(prompt("Ingrese edad de su perro"));
+        //edadActual= parseInt(edadActual);
+        //var bandera = 0;
+
+        if(edadActual >= 8 && edadActual <= 10){
+            console.log("Raza Grande");
+            //bandera = 1;
+        }
+        if(edadActual >= 11 && edadActual <= 15){
+            console.log("Raza Mediana")
+            //bandera = 1;
+        }
+        if(edadActual >= 16 && edadActual <= 20){
+            console.log("Raza Pequeña");
+            //bandera = 1;
+        }
+        if(edadActual < 8 || edadActual > 20){
+            //if (bandera == 0){
+            console.log("Raza no determinada");
+        }    
+        </script>
+    </body>
+</html>

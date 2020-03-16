@@ -1,0 +1,80 @@
+.imagen-niña{
+    width:150px;
+    height:150px;
+    border-radius: 110px 110px 110px 110px;
+    -moz-border-radius: 110px 110px 110px 110px;
+    -webkit-border-radius: 110px 110px 110px 110px;
+    border: 0px solid #000000;
+    background-color: #008a43ff;
+    padding:35px 15px;
+    margin:15px;
+}
+.color-celda-larga{
+    background-color: #00a751ff;
+    width:5%;
+    height:600px;
+    vertical-align: top;
+}
+.color-primera-celda{
+    background-color: #007f49ff;
+    width:95%;
+    height:100px;
+}
+.imagen-hospital{
+    width:130px;
+    height:130px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.texto-hospital{
+    width:70%;
+    margin:0 auto;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bolder;
+    color:#094510ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.dimension-tabla{
+    width:80%;
+    height:800px;
+    border-collapse: collapse;
+    margin-left:100px;
+    margin-right:150px;
+    margin:0 auto;
+}
+.cuadro-celda{
+    background-color: #ebebebff;
+    width:100%;
+    height:330px;
+    border:1px solid #ebebebff;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.15);
+    margin: 0 auto;
+    text-align: center;
+}
+.color-footer{
+    background-color: #007f49ff;
+    color:white;
+    text-align: center;
+    width:100%;
+    height:100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.dimesion-tabla2{
+    width:100%;
+    height:800px;
+}
+.cuadro-interior{
+    text-align: center;
+    padding-top:60px;
+}
+.margen-celda{
+    padding:15px;
+}
+

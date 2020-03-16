@@ -1,0 +1,101 @@
+/*
+span{
+    color:blue;
+    background-color: aqua;
+}
+*/
+/*h3{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+*/
+/*p{
+    color:darkmagenta;
+    background-color: mediumblue;
+}
+*/
+.clase{
+    color: rgb(210, 255, 9);
+}
+
+.clase1{
+    color: white;
+    background-color: rgb(0, 54, 0);
+    font-size: 30px;
+}
+
+.clase2{
+    color: white ;
+    background-color: brown;
+    font-size: 30px;
+}
+
+.clase3{
+    color: white;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.clase4{
+    color: white;
+    background-color: seagreen;
+    font-size: 30px;
+}
+.clase5{
+    color: beige;
+    background-color: brown;
+    font-size: 15px;
+}
+.clase6{
+    background-color: darkslategrey;
+}
+
+.clase7{
+    background-color: rgb(185, 187, 72);
+}
+
+.clase8{
+    background-color: blueviolet;
+}
+
+.clase9{
+    background-color: rgb(86, 110, 116);
+}
+h2{
+    color: darkcyan;
+    background-color: indigo;
+    font-size: 30px;
+}
+span{
+    color: azure;
+    background-color: brown;
+}
+h3{
+    color: darkred;
+    background-color: rgb(182, 120, 212);
+    font-size: 20px;
+}
+p{
+    color: antiquewhite;
+    background-color: rgb(125, 139, 139);
+}
+#primera{
+    width:100%;
+    height: 50px;
+    background-color: brown;
+}
+#segunda{
+    width:75%;
+    height: 50px;
+    background-color: rgb(161, 70, 70);
+}
+#tercera{
+    width:50%;
+    height: 50px;
+    background-color: rgb(160, 93, 93);
+}
+#cuarta{
+    width:25%;
+    height: 50px;
+    background-color: rgb(172, 135, 135);
+}

@@ -1,0 +1,101 @@
+.modo-grid-desafio{
+    display:grid;
+    grid-template-columns: minmax(250px, auto) 1fr;
+    grid-template-rows:minmax(70px, auto) minmax(400px, auto) minmax(70px, auto) ;
+    grid-template-areas: "header header"
+                        "nav section"
+                        "footer footer";
+    width:100%;
+}
+header{
+    grid-area: header;
+    background-color: #00bcd4ff;;
+}
+nav{
+    grid-area:nav;
+    background-color:rgb(192, 186, 186) ;
+}
+section{
+    grid-area: section;
+    background-color:white;
+}
+footer{
+    grid-area:footer;
+    background-color:  #00bcd4ff;;
+}
+.imagenes{
+    display:inline-block;
+    width:70px;
+    height:70px;
+    background-color: white;
+    border-radius:20px;
+    padding:15px;
+    margin:15px;
+}
+.centrar-imagenes{
+    text-align: center;
+}
+.imagen-oculta{
+    display: none;
+    width:100px;
+    height:100px;
+    line-height: 100px;
+}
+.modo-grid-nav{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(8, 50px) ;
+    width:100%;
+}
+.texto-nav{
+    font-weight: bolder;
+    line-height: 50px;
+    padding-left: 15px;
+}
+.modo-grid-nav > div:nth-child(2n){
+    background-color: rgb(218, 246, 255);
+}
+.modo-grid-nav > div:nth-child(2n-1){
+    background-color: rgb(130, 188, 255);
+}
+.letra-footer{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.cuadro-section{
+    background-color: rgb(214, 207, 207);
+    margin:15px;
+    height:600px;
+}
+@media only screen and (max-width:850px){
+    
+    .modo-grid-desafio{
+        grid-template-columns: 1fr;
+        grid-template-rows:minmax(70px, auto) minmax(400px, auto) minmax(70px, auto);
+        grid-template-areas: "header"
+                            "section"
+                            "footer";
+    }
+    .imagenes{
+        display: none;
+    }
+    .imagen-oculta{
+        display: inline-block;
+    }
+    .modo-grid-nav{
+        display:none;
+    }
+    .centrar-imagenes{
+        text-align: center;
+    }
+    .centrar-imagenes{
+        text-align: left;
+    }
+  
+    html{
+        font-size: 10px;
+    }
+
+}

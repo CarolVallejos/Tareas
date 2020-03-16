@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+
+            /*for(var i = 1; i <= 10; i++){
+            var num = parseInt(prompt("Ingrese n°"));
+
+            if(num === 5 || num === 7){
+                console.log(num + " es número primo");
+            }else 
+
+            if(num > 3 && (num%2 === 0 || num%3=== 0 || num%5 === 0 || num%7 === 0 || num%11 === 0)){
+                console.log(num + " no es número primo");
+            } else{
+                console.log(num + " es número primo");
+            }
+
+            }*/
+
+            
+            var num = parseInt(prompt("Ingrese n°"));
+            var cont = 0;
+
+            for (var i = 1; i<= num; i++){
+                if(num%i === 0){
+                    cont++;
+                }
+            }
+
+            if(cont === 2){
+                console.log("Es Primo");
+            }
+            else {
+                console.log("No es Primo");
+            }
+            
+            // console.log("¿Es Primo? : " + (cont === 2));
+            
+        
+
+            
+
+        </script>
+    </body>
+</html>

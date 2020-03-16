@@ -1,0 +1,37 @@
+.modo-grid-pagina{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(50px, auto) minmax(50px, auto) minmax(400px, auto) minmax(70px, auto) minmax(70px, auto);
+    grid-template-areas: "header"
+                        "nav"
+                        "section"
+                        "aside"
+                        "footer";
+    max-width:1300px;
+    margin:0 auto;
+    background: url(1291431.jpg);
+    height:1500px;
+}
+header{
+    background-color: violet;
+    grid-area:header;
+}
+nav{
+    background-color: thistle;
+    grid-area: nav;
+}
+section{
+    grid-area:section;
+}
+aside{
+    background-color: thistle;
+    grid-area: aside;
+}
+footer{
+    background-color: violet;
+    grid-area:footer;
+}
+.titulo{
+    font-size: 3rem;
+    color:white;
+}

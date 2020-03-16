@@ -1,0 +1,50 @@
+.modo-grid-eventos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(150, auto);
+
+    width:30%;
+    gap:10px;
+    margin:0 auto;
+    text-align: center;  
+}
+
+.dimension-imagen-evento{
+    padding-top: 100px;
+    width:80px;
+    height:80px;
+}
+.texto-evento{
+    font-weight: bolder;
+    padding-bottom: 100px;
+}
+.titulo-evento{
+    text-align: center;
+}
+.modo-grid-valentin{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(150, auto) minmax(100%, auto);
+    width:90%;
+    gap:10px;
+    margin:0 auto;
+    text-align: center;
+    grid-template-areas: "N1 N2 N3"
+                        "N4 N4 N4";
+}
+#N1{
+    grid-area:N1;
+}
+#N2{
+    grid-area:N2;
+}
+#N3{
+    grid-area:N3;
+}
+#N4{
+    grid-area:N4;
+}
+.dimension-imagen-valentin{
+    width:250px;
+    height:350px;
+}

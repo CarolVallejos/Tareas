@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var dinero = 5;
+            var suma = 0;
+            var edad = 10;
+
+            do{
+                var dolares = 0;
+                suma += dinero;
+                dinero *= 2; 
+                dolares += suma + dinero;
+                edad++; 
+            }
+
+            while(suma < 1000);
+
+            console.log("El dinero acumulado es: " + dolares + " cuando cumpla: " + edad);
+
+
+            /*
+            var edad= 10;
+            var regalo = 5;
+            var total = regalo;
+            
+            do{
+                edad++;
+                regalo *= 2;
+                total += regalo;
+
+            } while( regalo <= 1000);
+
+            console.log("Último regalo: " + regalo);
+            console.log("Edad: " + edad + " Total: " + total);
+            
+            */
+        </script>
+    </body>
+</html>

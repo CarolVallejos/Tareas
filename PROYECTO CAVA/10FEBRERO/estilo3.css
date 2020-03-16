@@ -1,0 +1,9 @@
+.mod-grid{
+    display:grid;
+    grid-template-columns: 50fr 200px 20fr 30fr;
+    grid-template-rows: 50px 100px 200px;
+}
+.mod-grid > div{
+    background-color: tomato;
+    border: white 1px solid;
+}

@@ -1,0 +1,15 @@
+body > p:first-of-type,
+body > p:last-of-type{
+    background-color:purple;
+    color: white;
+}
+body > span:first-of-type,
+body > span:last-of-type{
+    background-color: seagreen;
+    color: white;
+}
+body > i:first-of-type,
+body > i:last-of-type{
+    background-color: coral;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.modo-flex-column{
+    width:300px;
+    display:flex;
+    flex-direction: column;
+}
+.modo-flex-row{
+    width:300px;
+    display:flex;
+    flex-direction: row;
+}
+.modo-flex-column-reverse{
+    width:300px;
+    display:flex;
+    flex-direction: column-reverse;
+}
+.modo-flex-row-reverse{
+    width:300px;
+    display:flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,30 @@
+body tr:nth-child(2n){
+    background-color: rgb(6, 6, 95);
+    color: white;
+    text-align: center;
+}
+body tr:nth-child(2n+1):not(:last-of-type){
+    background-color: rgb(2, 102, 168);
+    color:white;
+    text-align:center;
+}
+table th:nth-of-type(n){
+    background-color:teal;
+    color:white;
+}
+
+body > table:nth-child(1){
+    border-collapse: collapse;
+    border:1px solid black;
+}
+body td:nth-child(n){
+    border:1px solid black;
+}
+table th:nth-child(n){
+    border:1px solid black;
+}
+table tr:last-of-type{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

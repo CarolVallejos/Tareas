@@ -1,0 +1,34 @@
+.modo-grid{
+    display:grid;
+    width: 80%;;
+    grid-template-columns: 2fr 4fr 2fr; 
+    grid-template-rows: minmax(150px, auto) minmax(200px, auto) minmax(600px, auto) minmax(600px, auto) minmax(150px, auto);
+    grid-template-areas:    "Verde Verde Verde"
+                            "Azul Amarillo Rosado"
+                            "N1 Amarillo Rosado"
+                            "N1 Amarillo Rosado"
+                            "Rojo Rojo Rojo" ;
+    gap:10px;
+    margin:0 auto;
+}
+
+header{
+    grid-area: Verde;
+    background-color: green;
+}
+nav{
+    grid-area:Azul;
+    background-color: blue;
+}
+section{
+    grid-area: Amarillo;
+    background-color: yellow;
+}
+aside{
+    grid-area:Rosado;
+    background-color: purple;
+}
+footer{
+    grid-area:Rojo;
+    background-color: red;
+}

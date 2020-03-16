@@ -1,0 +1,46 @@
+.div-1{
+    width:400px;
+    height:400px;
+    background-color: teal;
+}
+.div-2{
+    width:100px;
+    height:100px;
+    background-color: coral;
+}
+@media only screen and (max-width:1000px){
+    .div-1{
+        width:300px;
+        height:300px;
+        background-color: darkblue;
+    }
+    .div-2{
+        width:200px;
+        height:200px;
+        background-color: darkred;
+    }
+}
+@media only screen and (max-width:800px){
+    .div-1{
+        width:200px;
+        height:200px;
+        background-color: green;
+    }
+    .div-2{
+        width:300px;
+        height:300px;
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width:600px){
+    .div-1{
+        width:100px;
+        height:100px;
+        background-color: hotpink;
+    }
+    .div-2{
+        width:400px;
+        height:400px;
+        background-color: grey;
+    }
+}

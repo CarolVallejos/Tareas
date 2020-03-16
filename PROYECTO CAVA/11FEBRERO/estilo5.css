@@ -1,0 +1,44 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,100px);
+    background-color:rgb(13, 59, 59); ;
+    gap: 10px;
+    width: 300px;
+}
+div{
+    min-width:30px;
+    min-height:30px;
+    background-color: rgb(0, 113, 117);
+
+}
+#amarillo{
+    justify-self: left;
+    align-self: start;
+    background-color: yellow;
+}
+#verde{
+    justify-self: center;
+    align-self: start;
+    background-color: green;
+}
+#rojo{
+    justify-self: right;
+    align-self: start;
+    background-color:red;
+}
+#azul{
+    justify-self: left;
+    align-self: end;
+    background-color:rgb(115, 207, 250)
+}
+#naranja{
+    justify-self: center;
+    align-self: end;
+    background-color:orange;
+}
+#morada{
+    justify-self: right;
+    align-self: end;
+    background-color:purple;
+}

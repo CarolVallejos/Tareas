@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var liquido = 400000;
+            var retencion= 30/100;
+            var bruto=0;
+
+            if (retencion > 0 && liquido > 0){
+                bruto = liquido / (1 - retencion);
+                console.log(bruto);
+            } else {
+                console.log("No es posible calcular");
+            }
+
+            var x = 300000;
+            var y = 0.2;// 20% 20/100;
+
+            if (x >= 0 && y >= 0 && (1 -y) > 0){
+                var r = x / (1-y);
+                console.log(r);
+            } else {
+                console.log("No es posible calcular");
+            }
+        </script>
+    </body>
+</html>
