@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+
+            var num = parseInt(prompt("Ingrese n°"));
+            var total = 0;
+
+            for(var i = 1; i < num; i++){
+                
+                if(num%i === 0){
+                    total = total + i;
+                }
+            }
+
+            if(total === num){
+                console.log("Número perfecto");
+            } else {
+                console.log("Número no es perfecto");
+            }
+
+            /*
+            var n = parseInt(prompt("Ingrese n°"));
+            var suma=0;
+
+            for(var i = 1; i <=Math.trunc(n/2); i++){
+                if(n%i === 0){
+                    suma = suma + i;
+                }
+            }
+            
+            console.log("Es Perfecto: " + (n === suma));
+            
+            */
+
+        </script>
+    </body>
+</html>
